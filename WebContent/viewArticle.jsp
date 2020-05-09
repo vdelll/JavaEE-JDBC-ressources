@@ -23,5 +23,8 @@
             &nbsp; &nbsp;
             <input name="btnNext" type="submit" value="Next" />
         </form>
+        
+        ${catalogBrowser.shoppingCartSize} article<c:if test="${catalogBrowser.shoppingCartSize gt 1}">s</c:if> in the shopping cart.<br/>
+        <a href="summary">View the shopping cart</a>
 	</body>
 </html>
