@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+	
+}
+
+form {
+	
+}
+
+
+.errorMessage {
+    font-weight: bold;
+    color: red;	
+}
