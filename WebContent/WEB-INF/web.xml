@@ -28,9 +28,6 @@
 			<taglib-location>/WEB-INF/extratags.tld</taglib-location>
 		</taglib>
 	</jsp-config>
-<<<<<<< HEAD
-
-=======
 	
 	<session-config>
 		<session-timeout>20</session-timeout>
@@ -39,7 +36,5 @@
     <welcome-file-list>
         <welcome-file>login</welcome-file>
     </welcome-file-list>
-    
-    
->>>>>>> bd96d8d52b8ed50441b9b1131fd9fb2ba13e7b4c
+  
 </web-app>
