@@ -22,5 +22,12 @@
         <param-value>mdp</param-value>
     </context-param>
     
+    <jsp-config>
+		<taglib>
+			<taglib-uri>http://ldevapps.fr/tld/extratags</taglib-uri>
+			<taglib-location>/WEB-INF/extratags.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+    
     
 </web-app>

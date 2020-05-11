@@ -32,7 +32,7 @@ public class Login extends HttpServlet {
 		request.setAttribute( "login", "" );
 		request.setAttribute( "password", "" );
 		request.setAttribute( "errorMessage", "" );
-		request.getRequestDispatcher( "/login.jsp" ).forward( request, response );
+		request.getRequestDispatcher( "/login2.jsp" ).forward( request, response );
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -53,7 +53,7 @@ public class Login extends HttpServlet {
 		} else {
 		
 			request.setAttribute( "errorMessage", "Bad identity" );			
-			request.getRequestDispatcher( "/login.jsp" ).forward( request, response );
+			request.getRequestDispatcher( "/login2.jsp" ).forward( request, response );
 			
 		}
 		
